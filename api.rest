@@ -1,0 +1,28 @@
+GET http://localhost:3000/sda
+
+
+####
+//AUTH
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "diesel.saurav@gmail.com",
+  "password": "123456"
+}
+
+####
+//AUTH
+POST http://localhost:3000/signUp
+Content-Type: application/json
+
+{
+  "username": "Kumar Saurav",
+  "email": "diesl.saurav@gmail.com",
+  "password": "123456"
+}
+
+####
+GET http://localhost:3000/me
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWVkYWFmYjE0NGFhZTEyODgzMzM2Yzc2In0sImlhdCI6MTYwNjQyMzk3OCwiZXhwIjoxNjA2NDI3NTc4fQ.IaQ6khzUnR-M0HR439ZFfdE2iMdV5zvOnyL6zANq7GY
+
